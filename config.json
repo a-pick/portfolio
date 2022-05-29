@@ -1,0 +1,39 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "title": "Alex Pickering | Home",
+  "name": "Alex Pickering",
+  "ascii": "syhgma",
+  "social": {
+    "github": "a-pick",
+    "linkedin": "alex-pickering-57126b23a"
+  },
+  "email": "ajamespickering@email.com",
+  "ps1_hostname": "a-pick.github.io",
+  "ps1_username": "guest",
+  "repo": "https://github.com/a-pick/portfolio",
+  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "donate_urls": {
+    "paypal": "",
+    "patreon": ""
+  },
+  "colors": {
+    "light": {
+      "background": "#F8F8F2",
+      "foreground": "#272822",
+      "yellow": "#F4BF75",
+      "green": "#A6E22E",
+      "gray": "#AE81FF",
+      "blue": "#66D9EF",
+      "red": "#F92672"
+    },
+    "dark": {
+      "background": "#272822",
+      "foreground": "#F8F8F2",
+      "yellow": "#F4BF75",
+      "green": "#A6E22E",
+      "gray": "#AE81FF",
+      "blue": "#66D9EF",
+      "red": "#F92672"
+    }
+  }
+}
