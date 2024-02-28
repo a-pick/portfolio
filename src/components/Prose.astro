@@ -1,0 +1,8 @@
+---
+const { title } = Astro.props;
+---
+
+<div class="prose prose-slate max-w-none dark:prose-invert prose-h1:font-bold prose-h1:text-4xl prose-h1:mb-4 prose-h2:m-0 prose-h2:font-semibold prose-h2:text-3xl prose-h3:mb-0 prose-h3:mt-4 prose-h3:text-xl prose-h3:font-regular prose-p:text-justify-center prose-p:m-0 prose-img:rounded-xl prose-hr:my-4 divide-slate-400">
+    <h1>{title}</h1>
+    <slot />
+</div>

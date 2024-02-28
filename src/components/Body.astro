@@ -1,0 +1,10 @@
+---
+const { pageTitle } = Astro.props;
+---
+
+<div id="body" class="bg-slate-200 pt-4">
+    <h1 class="bg-slate-300 text-2xl font-semibold px-4 py-2 w-max m-auto rounded-se-lg rounded-ss-lg">{pageTitle}</h1>
+    <div class="bg-slate-300 p-8 flex justify-center text-center">
+        <slot />
+    </div>
+</div>

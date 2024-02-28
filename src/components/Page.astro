@@ -1,0 +1,21 @@
+---
+import Wrapper from '../components/Wrapper.astro';
+
+const { tabTitle, pageTitle } = Astro.props;
+---
+
+<html lang="en" class="bg-slate-100 bg-grid-slate-300">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>a-pick | {tabTitle}</title>
+	</head>
+	<body>
+		<div class="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-slate-100 z-[-1] [mask-image:radial-gradient(ellipse_at_center,transparent_0%,black)]"></div>
+		<Wrapper pageTitle={pageTitle}>
+			<slot />
+		</Wrapper>
+	</body>
+</html>
